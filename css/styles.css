@@ -634,9 +634,6 @@ progress {
 .container-sm {
   --bs-gutter-x: 1.5rem;
   --bs-gutter-y: 0;
-
- 
-
   width: 100%;
   padding-right: calc(var(--bs-gutter-x) * 0.5);
   padding-left: calc(var(--bs-gutter-x) * 0.5);
@@ -3752,11 +3749,11 @@ textarea.form-control-lg {
   width: 100%;
   z-index: 9999;
   position: fixed;
+  height: 55px;
   display: flex;
   flex-wrap: wrap;
   align-items: center;
   justify-content: space-between;
-  height: 50px;
   padding: var(--bs-navbar-padding-y) var(--bs-navbar-padding-x);
 }
 .navbar > .container,
@@ -10863,13 +10860,8 @@ html {
   bottom: 0;
   z-index: -1;
 }
-#navi1{
-  object-fit: cover;
-  position: fixed;
-  left: 4% !important;
-}
-#navsup{
-  object-fit: cover;
-  position: fixed;
-  right: 4% !important;
+.navbar .container {
+  margin: 4%;
+  width: 100%;
+  max-width: 100%;
 }
