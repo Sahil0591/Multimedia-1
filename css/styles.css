@@ -10861,7 +10861,8 @@ html {
   z-index: -1;
 }
 .navbar .container {
-  margin: 4%;
+  margin-left: 4%;
+  margin-right: 4%;
   width: 100%;
   max-width: 100%;
 }
