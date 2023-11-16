@@ -10867,7 +10867,7 @@ html {
   max-width: 100%;
 }
 footer{
-  position: fixed;
+  position: static;
   bottom: 0;
   width:100%;
 }
