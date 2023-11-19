@@ -10876,7 +10876,7 @@ footer{
   width: 600px;
   height: 600px;
   margin: auto;
-  background: url(/images/clockface.png);
+  background: url(/assets/images/cf1.png);
   background-repeat: no-repeat;
   list-style: none;
 }
@@ -10886,7 +10886,7 @@ footer{
   height: 600px;
   top: 0px;
   left: 285px;
-  background: url(/images/minhand.png);
+  background: url(/assets/images/minhand.png);
   z-index: 2;
 }
 #sec, #min, #hour {
@@ -10898,16 +10898,16 @@ footer{
 }
 
 #sec {
-  background: url(/images/sechand.png);
+  background: url(/assets/images/sechand.png);
   z-index: 3;
 }
 
 #min {
-  background: url(/images/minhand.png);
+  background: url(/assets/images/minhand.png);
   z-index: 2;
 }
 
 #hour {
-  background: url(/images/hourhand.png);
+  background: url(/assets/images/hourhand.png);
   z-index: 1;
 }

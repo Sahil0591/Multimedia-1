@@ -1,8 +1,9 @@
 $(document).ready(function () {
     setInterval(function () {
 
+        var milliseconds = new Date().getMilliseconds();
         var seconds = new Date().getSeconds();
-        var sdegree = seconds * 6;
+        var sdegree = seconds * 6 + milliseconds * 0.006;
         var srotate = "rotate(" + sdegree + "deg)";
 
         var minutes = new Date().getMinutes();
@@ -16,5 +17,5 @@ $(document).ready(function () {
         $("#sec").css({"transform": srotate});
         $("#min").css({"transform": mrotate});
         $("#hour").css({"transform": hrotate});
-    }, 1000);
+    }, 1);
 });
