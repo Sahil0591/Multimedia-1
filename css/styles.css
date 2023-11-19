@@ -10871,3 +10871,43 @@ footer{
   bottom: 0;
   width:100%;
 }
+#clock {
+  position: relative;
+  width: 600px;
+  height: 600px;
+  margin: auto;
+  background: url(/images/clockface.png);
+  background-repeat: no-repeat;
+  list-style: none;
+}
+#min {
+  position: absolute;
+  width: 30px;
+  height: 600px;
+  top: 0px;
+  left: 285px;
+  background: url(/images/minhand.png);
+  z-index: 2;
+}
+#sec, #min, #hour {
+  position: absolute;
+  width: 30px;
+  height: 600px;
+  top: 0px;
+  left: 285px;
+}
+
+#sec {
+  background: url(/images/sechand.png);
+  z-index: 3;
+}
+
+#min {
+  background: url(/images/minhand.png);
+  z-index: 2;
+}
+
+#hour {
+  background: url(/images/hourhand.png);
+  z-index: 1;
+}

@@ -9,8 +9,8 @@ $(document).ready(function () {
         var mdegree = minutes * 6;
         var mrotate = "rotate(" + mdegree + "deg)";
 
-        var hours = new Date().getMinutes();
-        var hdegree = hours * 30 + minutes/2;
+        var hours = new Date().getHours();
+        var hdegree = (hours + minutes/60) * 30  ;
         var hrotate = "rotate(" + hdegree + "deg)";
 
         $("#sec").css({"transform": srotate});

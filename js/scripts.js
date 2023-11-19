@@ -5,4 +5,3 @@ const menuToggle = document.querySelector('.toggle');
         menuToggle.classList.toggle('active');
         showcase.classList.toggle('active');
       })
-
